@@ -190,6 +190,7 @@ export function Settings() {
                     </Badge>
                     <span className="text-sm font-medium">Small MRs</span>
                   </div>
+                  <ModelSelector />
                   <p className="text-xs text-gray-600">≤ 100 lines changed</p>
 
                   <p className="text-sm font-medium mt-2">Claude 3 Haiku</p>
@@ -205,6 +206,7 @@ export function Settings() {
                     </Badge>
                     <span className="text-sm font-medium">Medium MRs</span>
                   </div>
+                  <ModelSelector />
                   <p className="text-xs text-gray-600">100-500 lines</p>
                   <p className="text-sm font-medium mt-2">Claude 3 Sonnet</p>
                 </div>
@@ -219,6 +221,7 @@ export function Settings() {
                     </Badge>
                     <span className="text-sm font-medium">Large MRs</span>
                   </div>
+                  <ModelSelector />
                   <p className="text-xs text-gray-600">&gt; 500 lines</p>
                   <p className="text-sm font-medium mt-2">GPT-4 Turbo</p>
                 </div>

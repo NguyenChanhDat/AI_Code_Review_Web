@@ -109,7 +109,7 @@ export function ModelSelector({
 
   return (
     <Select value={value} onValueChange={onValueChange}>
-      <SelectTrigger className={compact ? 'w-[200px]' : 'w-full'}>
+      <SelectTrigger className="w-full max-w-full overflow-hidden">
         <div className="flex items-center gap-2">
           <Brain className="w-4 h-4 text-purple-600" />
           <SelectValue />
