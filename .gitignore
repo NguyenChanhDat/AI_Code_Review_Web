@@ -77,3 +77,4 @@ test-results/
 # misc
 # ===============================
 *.log
+package-lock.json
